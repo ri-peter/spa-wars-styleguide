@@ -1,7 +1,7 @@
 {
   "name": "react-mf-styleguide",
-  "repository": "git@github.com:react-microfrontends/styleguide.git",
-  "author": "Joel Denning <joeldenning@gmail.com>",
+  "repository": "git@github.com:ri-peter/spa-wars-styleguide.git",
+  "author": "",
   "license": "MIT",
   "scripts": {
     "start": "webpack serve",
@@ -12,11 +12,6 @@
     "test": "jest --passWithNoTests",
     "watch-tests": "jest --watch",
     "coverage": "jest --coverage"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged && concurrently pnpm:test pnpm:lint"
-    }
   },
   "devDependencies": {
     "@babel/core": "^7.7.5",
@@ -44,7 +39,7 @@
     "single-spa-react": "^3.2.0",
     "webpack": "^5.15.0",
     "webpack-cli": "^4.3.1",
-    "webpack-config-single-spa-react": "^2.0.0",
+    "webpack-config-single-spa-react": "^3.0.0",
     "webpack-dev-server": "^4.0.0-beta.0",
     "webpack-merge": "^5.7.3"
   },
